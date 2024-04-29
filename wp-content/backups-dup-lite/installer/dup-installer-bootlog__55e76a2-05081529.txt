@@ -1,0 +1,27 @@
+[Apr 26 07:37:28] 
+[Apr 26 07:37:29] ==DUPLICATOR INSTALLER BOOTSTRAP v1.5.1==
+[Apr 26 07:37:29] ----------------------------------------------------
+[Apr 26 07:37:29] Installer bootstrap start
+[Apr 26 07:37:29] Manual extract found so not going to extract dup-installer dir
+[Apr 26 07:37:29] EXTRACT dup-installer dir
+[Apr 26 07:37:29] NOTICE: Didn't need to extract the installer.
+[Apr 26 07:37:29] Set permissions of dup-installer<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/addons<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/assets<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/classes<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/ctrls<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/favicon<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/libs<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/src<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/templates<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/vendor<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/dup-database__[HASH].sql<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/dup-manual-extract__[HASH]<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/index.php<br/>
+[Apr 26 07:37:29] Set permissions of dup-installer/main.installer.php<br/>
+[Apr 26 07:37:29] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://localhost/wordpress2/dup-installer/main.installer.php

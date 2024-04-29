@@ -1,0 +1,22 @@
+# This file was updated by Duplicator on 2024-04-26 07:38:44.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+Options -Indexes
+<IfModule mod_headers.c>
+	Header set X-Endurance-Cache-Level "0"
+	Header set X-nginx-cache "WordPress"
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /wordpress2/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress2/index.php [L]
+</IfModule>
+
+# END WordPress
